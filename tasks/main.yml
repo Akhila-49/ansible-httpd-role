@@ -1,0 +1,6 @@
+---
+# tasks file for myapache-akhila
+- name: install httpd package
+  yum: name={{package_name}} state=latest
+  notify:
+  - restart apache

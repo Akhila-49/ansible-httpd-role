@@ -1,0 +1,4 @@
+---
+# handlers file for myapache-akhila
+- name: restart apache
+  service: name=httpd state=restarted

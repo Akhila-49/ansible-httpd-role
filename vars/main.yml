@@ -1,0 +1,3 @@
+---
+# vars file for myapache-akhila
+package_name: httpd
